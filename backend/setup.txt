@@ -1,0 +1,18 @@
+npm init -y
+npm i express cors mongoose dotenv
+npm i -g nodemon
+
+what starts the server: in terminal "nodemon server"
+
+in modemon or insomnia we can mess around with our Get and Post  resquests
+
+example:
+POST http://localhost:5000/exercises/add
+use Json formate 
+{
+	"username":"Jonathan",
+	"description": "Pushups, Stairs, Weights",
+	"duration":"45",
+	"date":"2021-02-09T03:44:27.000Z"
+}
+
